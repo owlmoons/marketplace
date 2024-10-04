@@ -29,8 +29,8 @@ public class AdminUserDataSeeder {
                 // Create an admin user
                 AdminUser adminUser = new AdminUser();
                 adminUser.setUserId(GenerateUtils.generateUUID());
-                adminUser.setFullName("Vinh Nguyen");
-                adminUser.setEmail("tun36777@temple.edu");
+                adminUser.setFullName("Jessie Ann");
+                adminUser.setEmail("jessie@hcmiu.edu");
                 adminUser.setHashPassword(passwordEncoder.encode("123456"));
                 adminUser.setIsActive(true);
                 adminUser.setCreatedAt(new Date());
@@ -41,7 +41,7 @@ public class AdminUserDataSeeder {
                 AdminUser student1 = new AdminUser();
                 student1.setUserId(GenerateUtils.generateUUID());
                 student1.setFullName("Anurag Reddy");
-                student1.setEmail("anuchan@temple.edu");
+                student1.setEmail("anuchan@hcmiu.edu");
                 student1.setHashPassword(passwordEncoder.encode("123456")); 
                 student1.setIsActive(true);
                 student1.setCreatedAt(new Date());
